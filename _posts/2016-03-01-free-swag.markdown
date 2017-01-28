@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2016-03-01
+thumbnail: swagbag.png
+img: bigtotal.jpg
+alt: image-alt
+title: Free Swag
+subtitle: Come check out our free swag!
+description: Complete a few surveys, visit the booths, or ask us what you can do to earn some free swag!
+category: program
+
+---

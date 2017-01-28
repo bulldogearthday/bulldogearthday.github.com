@@ -1,0 +1,10 @@
+---
+layout: default
+post-id: 7
+date: 2016-03-15
+author: Alex Pytlak
+title: Test post
+category: post
+
+---
+This is our first test post

@@ -1,0 +1,36 @@
+ <!-- Program Modals -->
+ {% for post in site.posts %}
+    {% if post.category == "program" %}
+        <div class="program-modal modal fade" id="programModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>{{ post.title }}</h2>
+                                <hr class="star-primary">
+                                <img src="img/programs/{{ post.img }}" class="img-responsive img-centered img-rounded" alt="{{ post.alt }}">
+                                {% if post.facebook %}
+                                    <a href="{{ post.url }}" target="_blank" class="btn btn-default"><i class="fa fa-external-link-square"></i> {{ post.url }}</a>
+                                    <a href="{{ post.facebook }}" target="_blank" class="btn btn-default"><i class="fa fa-facebook-square"></i> {{ post.facebook }}</a>
+                                {% endif %}
+                                <h3>{{ post.subtitle }}</h3>
+                                <p>{{ post.description }}</p>
+                                {% if post.content %}
+                                    {{ post.content }}
+                                {% endif %}
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}

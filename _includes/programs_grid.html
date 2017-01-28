@@ -1,0 +1,28 @@
+
+    <!-- Programs Grid Section -->
+    <section id="programs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Programs</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.posts %}
+                    {% if post.category == "program" %}
+                        <div class="col-sm-4 program-item">
+                            <a href="#programModal-{{ post.modal-id }}" class="program-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="img/programs/{{ post.thumbnail }}" class="img-responsive img-rounded" alt="{{ post.alt }}">
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>

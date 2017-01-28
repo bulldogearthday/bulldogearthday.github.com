@@ -1,0 +1,56 @@
+# Site settings
+title: Earth Day
+email: bweinman@csufresno.edu
+url: https://bulldogearthday.github.io
+description: "Earth Day 2016 @Fresno State, Memorial Garden: south of Kennel Bookstore, Wednesday, 4.20.2016, 10:00 am - 2:00 pm"
+skills: "@Fresno State Memorial Garden - 4/20/2016, 10:00am - 2:00pm"
+meta_author: Eart Day
+
+# Google webmaster tools
+google_verify: 
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: 0CD07776082C537DF91D5387EC2D12AC
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: disqus
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: bulldogearthday
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  creator: Csaba Toth
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/groups/354051928072314
+  - title: github
+    url: https://github.com/bulldogearthday
+
+# Credits content
+credits: Alexandra Pytlak, Beth Weinman, Criss Wilhite, Debbie Xiong, Jonathan Benson, Kacie Anne, Magaly Perez, Nicole Warmerdam, and all the members of the <a href="https://www.facebook.com/groups/354051928072314">Fresno State Sustainability Ambassadors</a>. The website uses <a href="https://jeromelachaud.github.io/freelancer-theme/">Freelancer Jekyll theme</a>.
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">Memorial Garden @Fresno State</a>
+  - line: <a href="https://www.google.com/maps/place/36%C2%B048'44.7%22N+119%C2%B044'51.5%22W/@36.8123925,-119.7481271,218m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0" target="_blank">South of Kennel Bookstore, Fresno, CA</a>
+
+# Build settings
+markdown: kramdown
+permalink: pretty
