@@ -1,2 +1,2 @@
-# bulldogearthday.github.com
-Website for 2017 Bulldog Earth Day
+# bulldogearthday.github.io
+Earth day website based on freelancer-theme Jekyll theme
